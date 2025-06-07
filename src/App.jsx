@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     const fetchMessage = async () => {
       try {
-        const res = await axios.get('https://backend-only-uusg.onrender.com/api/hello', {
+        const res = await axios.get('https://backend-only-1-02vu.onrender.com/api/hello', {
           responseType: 'text'
         });
         setMsg(res.data);
