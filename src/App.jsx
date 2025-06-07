@@ -10,7 +10,7 @@ function App() {
   useEffect( () => {
     const fetch = async() => {
       try{
-        const res = await axios.get('https://backend-only-uusg.onrender.com/api/hello');
+        const res = await axios.get('https://backend-only-uusg.onrender.com/api/hello',{responseType : 'text'});
         setMsg(res.data);
 
 
